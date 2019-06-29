@@ -1,0 +1,484 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Vektor\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2019-02-19 20:09+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Vektor,Inc. <info@vektor-inc.co.jp>\n"
+"Language-Team: Vektor <info@example.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: dist/lightning-skin-fort/inc/header-contact/class-header-contact.php:49
+#: inc/header-contact/class-header-contact.php:49
+msgid "Please feel free to inquire."
+msgstr ""
+
+#: dist/lightning-skin-fort/inc/header-contact/class-header-contact.php:51
+#: inc/header-contact/class-header-contact.php:51
+msgid "Office hours 9:00 - 18:00 [ Weekdays except holidays ]"
+msgstr ""
+
+#: dist/lightning-skin-fort/inc/header-contact/class-header-contact.php:53
+#: dist/lightning-skin-fort/inc/header-contact/class-header-contact.php:55
+#: inc/header-contact/class-header-contact.php:53
+#: inc/header-contact/class-header-contact.php:55
+msgid "Contact us"
+msgstr "お問い合わせ"
+
+#: dist/lightning-skin-fort/inc/header-contact/class-header-contact.php:138
+#: inc/header-contact/class-header-contact.php:138
+msgid "ヘッダー 右側エリア"
+msgstr ""
+
+#: dist/lightning-skin-fort/inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:395
+#: inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:395
+msgid "Check for updates"
+msgstr "アップデートを確認"
+
+#: dist/lightning-skin-fort/inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:432
+#: inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:432
+msgid "View details"
+msgstr "詳細を見る"
+
+#: dist/lightning-skin-fort/inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:455
+#: inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:455
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: dist/lightning-skin-fort/inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:548
+#: inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:548
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: dist/lightning-skin-fort/inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:550
+#: inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:550
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: dist/lightning-skin-fort/inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:552
+#: inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:552
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: dist/lightning-skin-fort/inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:558
+#: inc/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:558
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: dist/lightning-skin-fort/inc/plugin-update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php:98
+#: inc/plugin-update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#: lightning-skin-fort.php:59
+msgid "Not guaranteed"
+msgstr "表示保証外"
+
+#~ msgid "Choose Image"
+#~ msgstr "画像を選択"
+
+#~ msgid "Delete Image"
+#~ msgstr "画像を削除"
+
+#~ msgid "Hide header top area"
+#~ msgstr "ヘッダー上部領域を非表示にする"
+
+#~ msgid "Lightning default"
+#~ msgstr "Lightning 標準"
+
+#~ msgid "Home content top after left"
+#~ msgstr "トップページコンテンツエリア左"
+
+#~ msgid "Home content top after right"
+#~ msgstr "トップページコンテンツエリア右"
+
+#~ msgid "Home content top bottom widget"
+#~ msgstr "トップページコンテンツエリア下部"
+
+#~ msgid "Your settings were saved."
+#~ msgstr "設定を保存しました。"
+
+#~ msgid "Lightning Archive Layouts"
+#~ msgstr "Lightning アーカイブページレイアウト"
+
+#~ msgid "Archive Page Layout [ %s ]"
+#~ msgstr "アーカイブページレイアウト [ %s ]"
+
+#~ msgid "Recent Posts"
+#~ msgstr "最近の投稿"
+
+#~ msgid "Title:"
+#~ msgstr "タイトル: "
+
+#~ msgid "Title icon:"
+#~ msgstr "見出しアイコン:"
+
+#~ msgid "Display Format"
+#~ msgstr "表示形式"
+
+#~ msgid "Display count"
+#~ msgstr "表示件数"
+
+#~ msgid "Offset count"
+#~ msgstr "オフセットカウント"
+
+#~ msgid ""
+#~ "If you skip 2 posts and you want to display from 3rd post, please enter a "
+#~ "2."
+#~ msgstr "2件飛ばして3件目の投稿から表示したい場合、2 を入力してください。"
+
+#~ msgid "Number of days to display the New icon"
+#~ msgstr "Newアイコンを表示する日数"
+
+#~ msgid "Slug for the post type you want to display"
+#~ msgstr "表示したい投稿タイプのスラッグ"
+
+#~ msgid "Category(Term) ID"
+#~ msgstr "カテゴリー（ターム）ID"
+
+#~ msgid ""
+#~ "If you need filtering by category(term), add the category ID separate by "
+#~ "\",\"."
+#~ msgstr ""
+#~ "特定のカテゴリー（あるいはカスタム分類）の投稿だけを表示したい場合は、表示"
+#~ "したいカテゴリーのIDを , 区切りで入力してください。"
+
+#~ msgid "If empty this area, I will do not filtering."
+#~ msgstr "未入力の場合はカスタム分類による絞り込みはされません。"
+
+#~ msgid "Author Archive"
+#~ msgstr "この著者の記事一覧"
+
+#~ msgid "Save Changes"
+#~ msgstr "変更を保存"
+
+#~ msgid "Background color"
+#~ msgstr "背景色"
+
+#~ msgid "Text color"
+#~ msgstr "文字色"
+
+#~ msgid "Text shadow color"
+#~ msgstr "文字の影の色"
+
+#~ msgid "Text align"
+#~ msgstr "文字の位置"
+
+#~ msgid "Left"
+#~ msgstr "左"
+
+#~ msgid "Center"
+#~ msgstr "中央"
+
+#~ msgid "Right"
+#~ msgstr "右"
+
+#~ msgid "Page header bg image"
+#~ msgstr "ページヘッダー画像"
+
+#~ msgid "Basic"
+#~ msgstr "基本"
+
+#~ msgid ""
+#~ "You can set the original image in the background of the page header part."
+#~ msgstr "ページヘッダー画像を設定できます。"
+
+#~ msgid ""
+#~ "If you want to change the image of a specific page, you can set it from "
+#~ "the editing screen of each fixed page."
+#~ msgstr ""
+#~ "特定の固定ページの画像を変更したい場合は、各固定ページの編集画面から設定で"
+#~ "きます。"
+
+#~ msgid "Page Header Image"
+#~ msgstr "ページヘッダー画像"
+
+#~ msgid "PR Content"
+#~ msgstr "PR コンテンツ"
+
+#~ msgid "This widget can be used when 1 column display is selected."
+#~ msgstr "このウィジェットは１カラム表示選択時に利用できます。"
+
+#~ msgid "Title color:"
+#~ msgstr "見出しの色："
+
+#~ msgid "Text:"
+#~ msgstr "テキスト："
+
+#~ msgid "Txst color:"
+#~ msgstr "文字の色："
+
+#~ msgid "Set image"
+#~ msgstr "画像を選択"
+
+#~ msgid "Delete image"
+#~ msgstr "画像をリセット"
+
+#~ msgid "Destination URL:"
+#~ msgstr "リンク先のURL："
+
+#~ msgid "Notation text:"
+#~ msgstr "リンクボタンのテキスト："
+
+#~ msgid "Open with new tab"
+#~ msgstr "新しいウィンドウで開く"
+
+#~ msgid "Background color:"
+#~ msgstr "背景色："
+
+#~ msgid ""
+#~ "Background image:<br>If both the background color and the background "
+#~ "image are set, the background image is reflected.<br>"
+#~ msgstr ""
+#~ "背景画像：<br>\n"
+#~ "背景色と背景画像の両方が設定されている場合は、背景画像が反映されます。<br>"
+
+#~ msgid "Cover color:"
+#~ msgstr "画像に被せる色："
+
+#~ msgid ""
+#~ "Depth of color to cover:<br>To cancel the color overlay overlay on the "
+#~ "image, enter \"0\" to this value."
+#~ msgstr ""
+#~ "画像に被せる色の濃さ：<br>画像に色を被せるオーバーレイを解除するには、この"
+#~ "値に “0”を入力してください。"
+
+#~ msgid "Margin-top<br>Please also enter the unit. (Example: 30px):"
+#~ msgstr ""
+#~ "ウィジェット上の余白<br>数値と任意の単位を入力してください。 （例："
+#~ "30px）："
+
+#~ msgid "Margin-bottom<br>Please also enter the unit. (Example: 30px):"
+#~ msgstr ""
+#~ "ウィジェット下の余白<br>数値と任意の単位を入力してください。 （例："
+#~ "30px）："
+
+#~ msgid "Select layout type:"
+#~ msgstr "レイアウトタイプを選択："
+
+#~ msgid "Put the image to the left"
+#~ msgstr "イメージを左に置く"
+
+#~ msgid "Put the image to the right"
+#~ msgstr "イメージを右に置く"
+
+#~ msgid "Title"
+#~ msgstr "タイトル"
+
+#~ msgid "Text"
+#~ msgstr "テキスト"
+
+#~ msgid "Link button"
+#~ msgstr "リンクボタン"
+
+#~ msgid "Link URL"
+#~ msgstr "リンク先URL"
+
+#~ msgid "Notation text"
+#~ msgstr "リンクボタンのテキスト"
+
+#~ msgid "Ex"
+#~ msgstr "例"
+
+#~ msgid "Read more  ≫"
+#~ msgstr "続きを読む ≫"
+
+#~ msgid "Select button type:"
+#~ msgstr "ボタンタイプを選択："
+
+#~ msgid "Fill button"
+#~ msgstr "塗りつぶしボタン"
+
+#~ msgid "Ghost button"
+#~ msgstr "ゴーストボタン"
+
+#~ msgid "Button color"
+#~ msgstr "ボタンの色"
+
+#~ msgid ""
+#~ "When you select the ghost button, the color of the text is reflected in "
+#~ "the color of the button."
+#~ msgstr ""
+#~ "ゴーストボタンを選択すると、テキストの色がボタンの色に反映されます。"
+
+#~ msgid "Image"
+#~ msgstr "画像"
+
+#~ msgid "Media border color"
+#~ msgstr "画像の境界線の色"
+
+#~ msgid "Background"
+#~ msgstr "背景色"
+
+#~ msgid "Background image"
+#~ msgstr "背景色"
+
+#~ msgid ""
+#~ "If both the background color and the background image are set, the "
+#~ "background image is reflected."
+#~ msgstr ""
+#~ "背景色と背景画像の両方が設定されている場合、背景画像が反映されます。"
+
+#~ msgid "Cover color"
+#~ msgstr "画像に被せる色"
+
+#~ msgid "Depth of color to cover"
+#~ msgstr "被せる色の濃さ"
+
+#~ msgid ""
+#~ "To cancel the color overlay overlay on the image, enter \"0\" to this "
+#~ "value."
+#~ msgstr ""
+#~ "画像に色を被せるオーバーレイを解除するには、この値に “0”を入力してくださ"
+#~ "い。"
+
+#~ msgid "Layout"
+#~ msgstr "レイアウト"
+
+#~ msgid "Margin-top"
+#~ msgstr "ウィジェット上の余白"
+
+#~ msgid "Margin-bottom"
+#~ msgstr "ウィジェット下の余白"
+
+#~ msgid "Choose the background color of the header and footer part."
+#~ msgstr "ヘッダーとフッター部分の背景色を選択してください。"
+
+#~ msgid "Content background color"
+#~ msgstr "コンテンツ背景色"
+
+#~ msgid "Choose the background color of the content part."
+#~ msgstr "コンテンツ部分の背景色を選択して下さい。"
+
+#~ msgid "No setting"
+#~ msgstr "設定なし"
+
+#~ msgid "Jpn paper01"
+#~ msgstr "和紙01"
+
+#~ msgid "Jpn paper02"
+#~ msgstr "和紙02"
+
+#~ msgid "Jpn paper03"
+#~ msgstr "和紙03"
+
+#~ msgid "Cloth"
+#~ msgstr "布"
+
+#~ msgid "You can set the texture image in the background of the content part."
+#~ msgstr "コンテンツ部分の背景にテクスチャ画像を設定できます。"
+
+#~ msgid "Content original background image"
+#~ msgstr "コンテンツオリジナル背景画像"
+
+#~ msgid ""
+#~ "You can set the original image in the background of the content part. "
+#~ "Please upload the image if you want to set the original image."
+#~ msgstr ""
+#~ "コンテンツ部分の背景にオリジナルの画像を設定できます。オリジナル画像を設定"
+#~ "する場合は画像をアップロードして下さい。"
+
+#~ msgid "Original background image repeat"
+#~ msgstr "オリジナル背景画像リピート"
+
+#~ msgid ""
+#~ "If you want to display to repeat the original background image that you "
+#~ "have uploaded in the previous item, please put the check."
+#~ msgstr ""
+#~ "先の項目でアップロードしたオリジナル背景画像をリピートして表示したい場合は"
+#~ "チェックを入れて下さい。"
+
+#~ msgid "Original background image size"
+#~ msgstr "オリジナル背景画像サイズ"
+
+#~ msgid "Full width"
+#~ msgstr "横幅いっぱい"
+
+#~ msgid "Vertical full width"
+#~ msgstr "縦幅に合わせる"
+
+#~ msgid ""
+#~ "You can change the original background image in the \"display next to the "
+#~ "full width of the screen\" or \"display to fit the screen vertical size\"."
+#~ msgstr ""
+#~ "オリジナル背景画像を「画面の横幅いっぱいに表示」または「画面縦のサイズに合"
+#~ "わせて表示」に変更することができます。"
+
+#~ msgid "Heading(h2) and sidebar icon"
+#~ msgstr "見出し（ H2 ）とサイドバーのアイコン"
+
+#~ msgid "Cherry blossom01"
+#~ msgstr "桜の花01"
+
+#~ msgid "Cherry blossom02"
+#~ msgstr "桜の花02"
+
+#~ msgid "Plum blossom"
+#~ msgstr "梅の花"
+
+#~ msgid "Maple"
+#~ msgstr "もみじ"
+
+#~ msgid "Pain"
+#~ msgstr "松"
+
+#~ msgid "Bamboo grass"
+#~ msgstr "笹"
+
+#~ msgid "Folding fan"
+#~ msgstr "扇子"
+
+#~ msgid "Origami crane"
+#~ msgstr "折り鶴"
+
+#~ msgid "Cloud01"
+#~ msgstr "雲01"
+
+#~ msgid "Cloud02"
+#~ msgstr "雲02"
+
+#~ msgid "You can set the icon in the heading(h2 and sidebar)."
+#~ msgstr "見出し(h2とサイドバー)にアイコンを設定することができます。"
+
+#~ msgid ""
+#~ "It is displayed outside the front page, and set the header image for the "
+#~ "desktop."
+#~ msgstr ""
+#~ "フロントページ以外で表示される、デスクトップ用のヘッダー画像を設定します。"
+
+#~ msgid "Page header image [ for SP ]"
+#~ msgstr "ページヘッダー画像 [ SP用 ]"
+
+#~ msgid ""
+#~ "It is displayed outside the front page, and set the header image for "
+#~ "smartphones."
+#~ msgstr ""
+#~ "フロントページ以外で表示される、スマートフォン用のヘッダー画像を設定しま"
+#~ "す。"
+
+#~ msgid "more"
+#~ msgstr "詳しくはこちら"

@@ -1,0 +1,35 @@
+{
+  "name": "lightning-skin-fort",
+  "version": "0.1.0",
+  "main": "Gruntfile.js",
+  "author": "YOUR NAME HERE",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-wp-i18n": "~0.5.0",
+    "grunt-wp-readme-to-markdown": "~1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-merge-media-queries": "^0.2.1",
+    "gulp-plumber": "^1.1.0"
+  },
+  "dependencies": {
+    "gulp-sass": "^3.2.0"
+  },
+  "path": {
+    "assetsDir": "./"
+  },
+  "description": "=== Lightning Skin Fort === Contributors: (this should be a list of wordpress.org userid's) Donate link: http://example.com/ Tags: comments, spam Requires at least: 4.4 Tested up to: 4.9 Stable tag: 0.1.0 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kurudrive@bitbucket.org/vektorinc/lightning-skin-fort.git"
+  },
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/vektorinc/lightning-skin-fort#readme"
+}

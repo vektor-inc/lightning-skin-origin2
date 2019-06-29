@@ -1,0 +1,209 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Vector\n"
+"POT-Creation-Date: "
+"2016-08-04 15:43+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Vector "
+"<info@example.com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"1.8.8\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: active.php:251
+msgid "more"
+msgstr ""
+
+#: customize_jpnstyle.php:41
+msgid ""
+"Headerfooter color"
+msgstr ""
+
+#: customize_jpnstyle.php:44
+msgid ""
+"Choose the background "
+"color of the header and footer"
+"part."
+msgstr ""
+
+#: customize_jpnstyle.php:54
+msgid ""
+"Content background color"
+msgstr ""
+
+#: customize_jpnstyle.php:57
+msgid ""
+"Choose the background "
+"color of the content "
+"part."
+msgstr ""
+
+#: customize_jpnstyle.php:66
+msgid ""
+"Content background "
+"texture"
+msgstr ""
+
+#: customize_jpnstyle.php:71
+#: customize_jpnstyle.php:119
+msgid "No setting"
+msgstr ""
+
+#: customize_jpnstyle.php:72
+msgid "Wood"
+msgstr ""
+
+#: customize_jpnstyle.php:73
+msgid "Vertical stripes"
+msgstr ""
+
+#: customize_jpnstyle.php:74
+msgid "Horizontal stripes"
+msgstr ""
+
+#: customize_jpnstyle.php:75
+msgid "Damask"
+msgstr ""
+
+#: customize_jpnstyle.php:76
+msgid "Damask reversal"
+msgstr ""
+
+#: customize_jpnstyle.php:77
+msgid "Dot"
+msgstr ""
+
+#: customize_jpnstyle.php:78
+msgid "Dot reversal"
+msgstr ""
+
+#: customize_jpnstyle.php:80
+msgid ""
+"You can set the texture "
+"image in the background "
+"of the content part."
+msgstr ""
+
+#: customize_jpnstyle.php:89
+msgid ""
+"Content original "
+"background image"
+msgstr ""
+
+#: customize_jpnstyle.php:92
+msgid ""
+"You can set the original "
+"image in the background "
+"of the content part. "
+"Please upload the image "
+"if you want to set the "
+"original image."
+msgstr ""
+
+#: customize_jpnstyle.php:102
+msgid ""
+"Original background "
+"image repeat"
+msgstr ""
+
+#: customize_jpnstyle.php:105
+msgid ""
+"If you want to display "
+"to repeat the original "
+"background image that "
+"you have uploaded in the "
+"previous item, please "
+"put the check."
+msgstr ""
+
+#: customize_jpnstyle.php:114
+msgid ""
+"Original background "
+"image size"
+msgstr ""
+
+#: customize_jpnstyle.php:120
+msgid "Full width"
+msgstr ""
+
+#: customize_jpnstyle.php:121
+msgid "Vertical full width"
+msgstr ""
+
+#: customize_jpnstyle.php:123
+msgid ""
+"You can change the "
+"original background "
+"image in the \"display "
+"next to the full width "
+"of the screen\" or "
+"\"display to fit the "
+"screen vertical size\"."
+msgstr ""
+
+#: customize_jpnstyle.php:132
+msgid ""
+"Page header image [ for "
+"PC ]"
+msgstr ""
+
+#: customize_jpnstyle.php:135
+msgid ""
+"It is displayed outside "
+"the front page, and set "
+"the header image for the "
+"desktop."
+msgstr ""
+
+#: customize_jpnstyle.php:144
+msgid ""
+"Page header image [ for "
+"SP ]"
+msgstr ""
+
+#: customize_jpnstyle.php:147
+msgid ""
+"It is displayed outside "
+"the front page, and set "
+"the header image for "
+"smartphones."
+msgstr ""
