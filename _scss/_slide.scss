@@ -2,7 +2,7 @@
 
 .carousel { border-bottom:$border_primary;display:block; overflow:hidden;width:100%; }
 .carousel-indicators { margin-bottom:0;bottom:5px; }
-.carousel-inner>.item {
+.slide {
 	img,
 	picture > img,
 	a > img,

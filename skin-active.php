@@ -102,4 +102,4 @@ function ltg_fort_header_scrolled_scripts() {
 		wp_add_inline_script( 'jquery-core', $script, 'after' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'ltg_fort_header_scrolled_scripts' );
+// add_action( 'wp_enqueue_scripts', 'ltg_fort_header_scrolled_scripts' );

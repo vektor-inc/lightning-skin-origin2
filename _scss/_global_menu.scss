@@ -1,6 +1,8 @@
 @charset "utf-8";
+@import "variables";
+
 .siteHeadContainer {
-	display: flex;
+	// display: flex;
 }
 .siteHeadContainer::after {
 	content:"";
@@ -8,17 +10,23 @@
   clear: both;
 }
 
-$menu_padding_vertical:16px;
-$menu_padding_holizontal:16px;
+$menu_padding_vertical:14px;
+$menu_padding_holizontal:14px;
 $menu_bg_color:#666;
-$time_transition:0.5s;
+$time_transition:0.1s;
+
+@media ( max-width: $md-max ){
+	.gMenu_outer {
+		display: none;
+	}
+}
+
 .gMenu_outer {
 	float:right;
 	position: relative;
 	right:0;
 }
 .gMenu {
-	// flex-wrap: nowrap;
 	float:right;
 	margin:0;
 	padding:0;
@@ -32,29 +40,39 @@ $time_transition:0.5s;
 	}
 	li {
 		line-height: 1.2;
+		font-size:14px;
 	}
 	/* only first */
 	& > li {
-		padding: $menu_padding_vertical 2em;
+		padding: $menu_padding_vertical 1.8em;
 		text-align: center;
-		font-size:16px;
 		list-style: none;
 		position: relative;
-		&::after{
-			transition: all $time_transition ease-in;
+		/* PC端末の場合、第一階層メニューのみ下階層展開ボタンを隠す */
+		.device-pc & > .acc-btn {
+			display: none;
+		}
+		&.menu-item-has-children::after{
+			transition: all $time_transition ease-out;
 			content: '';
 			position: absolute;
 			padding: 0;
-			bottom: -1px;
+			bottom: -10px;
 			left: 50%;
 			transform: translateX(-50%);
-			border: 14px solid transparent;
+			border: 10px solid transparent;
 			border-bottom-color: $menu_bg_color;
 			z-index: 1000;
 			opacity: 0;
 		}
+		.device-pc &:hover > .sub-menu{
+			opacity: 1;
+			max-height:1000px;
+		}
+		.device-pc &.menu-item-has-children:hover::after,
 		&.acc-parent-open::after{
 			opacity: 1;
+			bottom: -1px;
 		}
 		&.acc-parent-close::after{
 			opacity: 0;
@@ -80,14 +98,14 @@ $time_transition:0.5s;
 				 border-top:1px solid rgba(255,255,255,0.2);
 				 color:#fff;
 			 }
-
 		 }
 	 }
-
 	 & > li {
 		 float:left;
 		 & > ul.sub-menu {
 			 position: absolute;
+			 z-index: 1000;
+			 transition: all 0.3s ease-in;
 		 }
 	 }
 }
@@ -101,9 +119,8 @@ $time_transition:0.5s;
 		.acc-btn{
 			width:18px;
 			height:18px;
+			right:3px;
 			top:$menu_padding_vertical;
-			// top:50%;
-			// transform: translateY(-50%);
 		}
 		.sub-menu {
 			.acc-btn{
@@ -116,8 +133,6 @@ $time_transition:0.5s;
 		}
 	}
 }
-
-
 
 /*-------------------------------------------*/
 /* nav
