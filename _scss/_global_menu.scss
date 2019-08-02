@@ -15,20 +15,12 @@ $menu_padding_holizontal:14px;
 $menu_bg_color:#666;
 $time_transition:0.1s;
 
-@media ( max-width: $md-max ){
-	.gMenu_outer {
-		display: none;
-	}
-}
-
 .gMenu_outer {
-	float:right;
 	position: relative;
-	right:0;
+	width: 100%;
 }
 .gMenu {
-	float:right;
-	margin:0;
+	margin :0 auto;
 	padding:0;
 	list-style: none;
 	position: relative;
@@ -133,7 +125,32 @@ $time_transition:0.1s;
 		}
 	}
 }
+@media ( max-width: $md-max ){
+	.gMenu_outer {
+		display: none;
+	}
+}
+@media ( max-width: $lg-max ){
+	.gMenu_outer {
+		text-align: center;
+	}
+	.gMenu{
+		display:inline-block; overflow:visible;
+	}
+}
 
+@media ( min-width: $xl-min ){
+	.gMenu_outer {
+		right:0;
+		float:right;
+		width: unset;
+	}
+	.gMenu{
+		right:0;
+		margin:0;
+		float:right;
+	}
+}
 /*-------------------------------------------*/
 /* nav
 /*-------------------------------------------*/
