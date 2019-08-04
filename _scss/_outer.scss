@@ -130,7 +130,6 @@ h1.page-header_pageTitle:first-child {
 /*-------------------------------------------*/
 .breadSection { border-bottom:$border_primary;
   .breadcrumb { margin-top:0;margin-bottom:0;background:none;
-    & > li + li:before { content:">" }
     li { margin-bottom:0;list-style: none;}
 	  span { font-size: 0.75em; }
   }

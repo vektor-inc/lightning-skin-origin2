@@ -70,7 +70,12 @@ $border_horizontal : 1px solid rgba(0, 0, 0, 0.15);
 		a { color : $color_font_light; padding-bottom:2px; }
 		a:hover { border-bottom:1px solid $color_font_light;  text-decoration: none;}
 		padding:6px 15px;
-		  & > li + li:before { content:"/" }
+		  & > li + li:before {
+				content:"/";
+				margin-left:0.5em;
+				margin-right:0.5em;
+				font-size:12px;
+			}
 	}
 }
 
