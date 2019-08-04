@@ -21,7 +21,9 @@
 /* common style
 /*-------------------------------------------*/
 
-body { font-family: "メイリオ",Meiryo,"ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",sans-serif;-ms-word-wrap: break-word;word-wrap: break-word;font-size:16px; }
+body { font-family: "メイリオ",Meiryo,"ＭＳ Ｐゴシック","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",sans-serif;-ms-word-wrap: break-word;word-wrap: break-word;
+	font-size:calc(14px + 0.2vw);
+}
 /* img が２行ないとgulpでcssに出力されないという謎のバグがあるため、原因がわかるまで２行書いておく */
 /* JPN STYLE で発生 */
 img { max-width: 100%; height:auto; }
